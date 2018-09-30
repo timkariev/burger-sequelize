@@ -1,0 +1,30 @@
+{
+  "name": "burger-sequelize",
+  "version": "1.0.0",
+  "description": "Burger ordering app with Sequelize cli",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-router": "^0.0.1",
+    "method-override": "^3.0.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.39.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkariev/burger-sequelize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkariev/burger-sequelize/issues"
+  },
+  "homepage": "https://github.com/timkariev/burger-sequelize#readme"
+}
